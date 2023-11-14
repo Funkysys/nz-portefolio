@@ -1,0 +1,180 @@
+html {
+    background: beige;
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+main {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    font-family: monospace;
+
+}
+.title {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 20%;
+    background: beige;
+    z-index: 1000;
+    border-bottom: 5px solid beige;
+}
+h1 {
+    position: fixed;
+    margin-top: 5%;
+    margin-left: 20%;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 300%;
+
+}
+
+.contenu {
+    position: relative;
+    left: 25%;
+    top: 30%;
+    width: 55%;
+    max-width: 50%;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    margin-top: 0%;
+    margin-bottom: 10%;
+}
+
+.infos {
+    margin-top: 30%;
+    max-width: 90%;
+    text-align: block;
+    opacity: 70%;
+    font-size: 150%;
+    line-height: 1.8;
+
+}
+
+.concerts {
+    width: 100%;
+    opacity: 70%;
+    margin-top: 10%;
+    font-size: 120%;
+
+}
+
+table {
+    text-align: left;
+    width: 90%;
+}
+
+td {
+    width: 21%;
+    margin-right: 3%;
+}
+
+
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    margin-top: 8%;
+    margin-left: 2%;
+    font-size: 200%;
+    z-index: 1000;
+}
+
+h3 {
+    font-style: italic;
+    font-weight: normal;
+    opacity: 90%;
+}
+
+ul {
+    background-color: beige;
+    opacity: 60%;
+    list-style-type: none;
+    stroke-opacity: 100%;
+    border-radius: 2px;
+}
+
+li button {
+    font-size: 70%;
+    font-family: monospace;
+    border: none;
+    background-color: beige;
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 8px 0;
+}
+
+li button:hover {
+    color: white;
+    background-color: black;
+    opacity: 100%;
+    border-radius: 5px;
+
+}
+
+.accueil button {
+    width: 200px;
+    text-decoration: none;
+    background-color: beige;
+    border: none;
+    color: black;
+    opacity: 60%;
+    stroke-opacity: 100%;
+    font-size: 200%;
+    font-family: monospace;
+    font-style: italic;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+
+}
+
+.accueil button:hover {
+    color: white;
+    border-radius: 5px;
+    background-color: black;
+    text-decoration: none;
+    opacity: 60%;
+    stroke-opacity: 100%;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    margin-bottom: 0.1%;
+}
+
+.player {
+    margin-top: 4%;
+}
+
+.playbio {
+    z-index: 1500;
+    position: fixed;
+    top: 15%;
+    left: 75%;
+    width: 10%;
+    height: 20%;
+}
+
+.playbio button {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background: url('../public/assets/images/hautparleur.svg');
+    background-size: cover;
+    border: none;
+}
+
+.soundcloudplayer {
+    margin-top: 3%;
+    width: 70%;
+}
