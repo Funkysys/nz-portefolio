@@ -11,7 +11,7 @@ import Poesie from "../Projects/Poesie"
 import Raqqa from "../Projects/Raqqa"
 import Relative from "../Projects/Relative"
 import Sonego from "../Projects/Sonego"
-import Live from '../Live/live'
+import Live from '../Live/Live'
 
 
 const Content = () => {
